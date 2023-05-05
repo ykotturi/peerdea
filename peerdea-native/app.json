@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Peerdea",
+    "owner": "ykotturi1",
+    "slug": "peerdea-native",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "4.3.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ykotturi.peerdea"
+    },
+    "android": {
+      "package": "com.ykotturi.peerdea",
+      "versionCode": 14
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6b2a9940-b25c-11e9-8927-6dd4e935bc8b"
+      }
+    }
+  }
+}

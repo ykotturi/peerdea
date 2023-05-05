@@ -1,0 +1,36 @@
+diff --git a/node_modules/zlib/.npmignore b/node_modules/zlib/.npmignore
+old mode 100644
+new mode 100755
+diff --git a/node_modules/zlib/LICENSE b/node_modules/zlib/LICENSE
+old mode 100644
+new mode 100755
+diff --git a/node_modules/zlib/Makefile b/node_modules/zlib/Makefile
+old mode 100644
+new mode 100755
+diff --git a/node_modules/zlib/README.md b/node_modules/zlib/README.md
+old mode 100644
+new mode 100755
+diff --git a/node_modules/zlib/index.js b/node_modules/zlib/index.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/zlib/lib/zlib.js b/node_modules/zlib/lib/zlib.js
+old mode 100644
+new mode 100755
+index bc49811..e0af127
+--- a/node_modules/zlib/lib/zlib.js
++++ b/node_modules/zlib/lib/zlib.js
+@@ -1 +1 @@
+-module.exports = require('./zlib_bindings');
++// module.exports = require('./zlib_bindings');
+diff --git a/node_modules/zlib/src/node-zlib.cc b/node_modules/zlib/src/node-zlib.cc
+old mode 100644
+new mode 100755
+diff --git a/node_modules/zlib/test/deflate.test.js b/node_modules/zlib/test/deflate.test.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/zlib/test/inflate.test.js b/node_modules/zlib/test/inflate.test.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/zlib/wscript b/node_modules/zlib/wscript
+old mode 100644
+new mode 100755

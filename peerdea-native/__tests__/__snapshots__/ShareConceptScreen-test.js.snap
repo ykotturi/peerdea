@@ -1,0 +1,224 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Share concept Screen renders the share concept screen 1`] = `
+<KeyboardAwareScrollView
+  contentContainerStyle={
+    Object {
+      "backgroundColor": "#fff",
+    }
+  }
+  enableAutomaticScroll={true}
+  enableOnAndroid={true}
+  enableResetScrollToCoords={true}
+  extraHeight={75}
+  extraScrollHeight={100}
+  keyboardOpeningTime={250}
+  keyboardShouldPersistTaps="handled"
+  pointerEvents="auto"
+  resetScrollToCoords={
+    Object {
+      "x": 0,
+      "y": 0,
+    }
+  }
+  viewIsInsideTabBar={false}
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "column",
+        "justifyContent": "space-around",
+        "marginBottom": 100,
+        "padding": 10,
+      }
+    }
+  >
+    <Image
+      accessibilityLabel="Peerdea app logo"
+      accessible={true}
+      source={1}
+      style={
+        Object {
+          "height": 50,
+          "width": 300,
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "paddingBottom": 15,
+        }
+      }
+    >
+      Welcome to 
+      , 
+      
+      !
+    </Text>
+    <Text
+      style={
+        Object {
+          "paddingBottom": 15,
+        }
+      }
+    >
+      Share an idea you are thinking about or ask a question that you would like group members' inputs on. You can add links by direcly pasting them into the text box. You can also add photos or create a poll.
+    </Text>
+    <TextInput
+      blurOnSubmit={true}
+      multiline={true}
+      onChangeText={[Function]}
+      placeholder="What do you want to share with your group today? (minimum of 10 characters)"
+      returnKeyType="done"
+      style={
+        Object {
+          "borderColor": "gray",
+          "borderRadius": 5,
+          "borderWidth": 1,
+          "height": 60,
+          "marginBottom": 10,
+          "maxHeight": 60,
+          "padding": 10,
+          "width": "90%",
+        }
+      }
+      value=""
+    />
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-evenly",
+        }
+      }
+    >
+      <TouchableHighlight
+        onPress={[Function]}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#0076ff",
+              "borderColor": "#0076ff",
+              "borderRadius": 9,
+              "borderWidth": 1,
+              "elevation": 3,
+              "height": 50,
+              "justifyContent": "center",
+              "width": "47%",
+            },
+            Object {
+              "backgroundColor": "#dddddd",
+              "borderColor": "transparent",
+              "marginBottom": 10,
+              "marginRight": 5,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "color": "#ffffff",
+                "fontSize": 20,
+                "justifyContent": "center",
+                "paddingHorizontal": "8%",
+              },
+              Object {
+                "color": "black",
+              },
+            ]
+          }
+        >
+          Add Image(s)
+        </Text>
+      </TouchableHighlight>
+      <TouchableHighlight
+        onPress={[Function]}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#0076ff",
+              "borderColor": "#0076ff",
+              "borderRadius": 9,
+              "borderWidth": 1,
+              "elevation": 3,
+              "height": 50,
+              "justifyContent": "center",
+              "width": "47%",
+            },
+            Object {
+              "backgroundColor": "#dddddd",
+              "borderColor": "transparent",
+              "marginBottom": 10,
+              "marginLeft": 5,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "color": "#ffffff",
+                "fontSize": 20,
+                "justifyContent": "center",
+                "paddingHorizontal": "8%",
+              },
+              Object {
+                "color": "black",
+              },
+            ]
+          }
+        >
+          Create Poll
+        </Text>
+      </TouchableHighlight>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "padding": 15,
+          "width": "100%",
+        }
+      }
+    >
+      <TouchableHighlight
+        onPress={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#0076ff",
+            "borderColor": "#0076ff",
+            "borderRadius": 9,
+            "borderWidth": 1,
+            "elevation": 3,
+            "height": 50,
+            "justifyContent": "center",
+            "width": "55%",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#ffffff",
+              "fontSize": 20,
+              "paddingHorizontal": 23,
+            }
+          }
+        >
+          Share post
+        </Text>
+      </TouchableHighlight>
+    </View>
+  </View>
+</KeyboardAwareScrollView>
+`;

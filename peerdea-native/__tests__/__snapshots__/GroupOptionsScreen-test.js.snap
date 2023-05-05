@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Group options Screen renders the group options screen 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#fff",
+      "flex": 1,
+      "justifyContent": "center",
+      "paddingBottom": 30,
+      "paddingTop": 18,
+    }
+  }
+>
+  <Image
+    accessibilityLabel="Peerdea app logo"
+    accessible={true}
+    source={1}
+    style={
+      Object {
+        "height": 51,
+        "width": 300,
+      }
+    }
+  />
+  <Text
+    style={
+      Object {
+        "color": "rgba(96,100,109, 1)",
+        "fontSize": 17,
+        "lineHeight": 20,
+        "marginBottom": 10,
+        "marginLeft": 10,
+        "marginRight": 10,
+        "textAlign": "center",
+      }
+    }
+  >
+    Welcome to Peerdea, 
+    !
+  </Text>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "width": "80%",
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#0076ff",
+          "borderColor": "#0076ff",
+          "borderRadius": 9,
+          "borderWidth": 1,
+          "elevation": 3,
+          "height": 50,
+          "justifyContent": "center",
+          "width": "90%",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "alignItems": "center",
+            "color": "#ffffff",
+            "fontSize": 20,
+            "justifyContent": "center",
+            "paddingHorizontal": "8%",
+          }
+        }
+      >
+        Create a new group
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "marginBottom": 5,
+        }
+      }
+    />
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#0076ff",
+          "borderColor": "#0076ff",
+          "borderRadius": 9,
+          "borderWidth": 1,
+          "elevation": 3,
+          "height": 50,
+          "justifyContent": "center",
+          "width": "90%",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "alignItems": "center",
+            "color": "#ffffff",
+            "fontSize": 20,
+            "justifyContent": "center",
+            "paddingHorizontal": "8%",
+          }
+        }
+      >
+        Join an existing group
+      </Text>
+    </View>
+  </View>
+</View>
+`;

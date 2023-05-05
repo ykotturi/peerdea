@@ -1,0 +1,93 @@
+diff --git a/node_modules/react-native-udp/LICENSE b/node_modules/react-native-udp/LICENSE
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native-udp/README.md b/node_modules/react-native-udp/README.md
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native-udp/UdpSocket.js b/node_modules/react-native-udp/UdpSocket.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native-udp/UdpSockets.js b/node_modules/react-native-udp/UdpSockets.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native-udp/android/build.gradle b/node_modules/react-native-udp/android/build.gradle
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native-udp/android/proguard-rules.pro b/node_modules/react-native-udp/android/proguard-rules.pro
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native-udp/android/src/main/AndroidManifest.xml b/node_modules/react-native-udp/android/src/main/AndroidManifest.xml
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native-udp/android/src/main/java/com/tradle/react/UdpErrorUtil.java b/node_modules/react-native-udp/android/src/main/java/com/tradle/react/UdpErrorUtil.java
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native-udp/android/src/main/java/com/tradle/react/UdpReceiverTask.java b/node_modules/react-native-udp/android/src/main/java/com/tradle/react/UdpReceiverTask.java
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native-udp/android/src/main/java/com/tradle/react/UdpSenderTask.java b/node_modules/react-native-udp/android/src/main/java/com/tradle/react/UdpSenderTask.java
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native-udp/android/src/main/java/com/tradle/react/UdpSocketClient.java b/node_modules/react-native-udp/android/src/main/java/com/tradle/react/UdpSocketClient.java
+old mode 100644
+new mode 100755
+index 15d6526..510f06d
+--- a/node_modules/react-native-udp/android/src/main/java/com/tradle/react/UdpSocketClient.java
++++ b/node_modules/react-native-udp/android/src/main/java/com/tradle/react/UdpSocketClient.java
+@@ -8,7 +8,7 @@
+ package com.tradle.react;
+ 
+ import android.os.AsyncTask;
+-import android.support.annotation.Nullable;
++import androidx.annotation.Nullable;
+ import android.util.Base64;
+ import android.util.Pair;
+ 
+diff --git a/node_modules/react-native-udp/android/src/main/java/com/tradle/react/UdpSockets.java b/node_modules/react-native-udp/android/src/main/java/com/tradle/react/UdpSockets.java
+old mode 100644
+new mode 100755
+index a0b7c46..2768252
+--- a/node_modules/react-native-udp/android/src/main/java/com/tradle/react/UdpSockets.java
++++ b/node_modules/react-native-udp/android/src/main/java/com/tradle/react/UdpSockets.java
+@@ -9,7 +9,7 @@ package com.tradle.react;
+ 
+ import android.content.Context;
+ import android.net.wifi.WifiManager;
+-import android.support.annotation.Nullable;
++import androidx.annotation.Nullable;
+ import android.util.SparseArray;
+ import android.os.AsyncTask;
+ 
+diff --git a/node_modules/react-native-udp/android/src/main/java/com/tradle/react/UdpSocketsModule.java b/node_modules/react-native-udp/android/src/main/java/com/tradle/react/UdpSocketsModule.java
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native-udp/ios/CocoaAsyncSocket/GCDAsyncUdpSocket.h b/node_modules/react-native-udp/ios/CocoaAsyncSocket/GCDAsyncUdpSocket.h
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native-udp/ios/CocoaAsyncSocket/GCDAsyncUdpSocket.m b/node_modules/react-native-udp/ios/CocoaAsyncSocket/GCDAsyncUdpSocket.m
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native-udp/ios/UdpSocketClient.h b/node_modules/react-native-udp/ios/UdpSocketClient.h
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native-udp/ios/UdpSocketClient.m b/node_modules/react-native-udp/ios/UdpSocketClient.m
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native-udp/ios/UdpSockets.h b/node_modules/react-native-udp/ios/UdpSockets.h
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native-udp/ios/UdpSockets.m b/node_modules/react-native-udp/ios/UdpSockets.m
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native-udp/ios/UdpSockets.xcodeproj/project.pbxproj b/node_modules/react-native-udp/ios/UdpSockets.xcodeproj/project.pbxproj
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native-udp/normalizeBindOptions.js b/node_modules/react-native-udp/normalizeBindOptions.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native-udp/react-native-udp.podspec b/node_modules/react-native-udp/react-native-udp.podspec
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native-udp/test/normalizeBindOptions.test.js b/node_modules/react-native-udp/test/normalizeBindOptions.test.js
+old mode 100644
+new mode 100755

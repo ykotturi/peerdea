@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User bio Screen renders the user bio screen 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#fff",
+    }
+  }
+>
+  <ScrollView
+    persistentScrollbar={true}
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 45,
+          "fontWeight": "bold",
+          "paddingVertical": 22.5,
+          "textAlign": "center",
+        }
+      }
+    >
+      's profile
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontSize": 37.5,
+          "fontWeight": "bold",
+          "marginVertical": 5,
+          "paddingTop": 26.68,
+          "textAlign": "center",
+        }
+      }
+    >
+      's email
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontSize": 30,
+          "marginHorizontal": 37.5,
+          "marginVertical": 26.68,
+        }
+      }
+    >
+      
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontSize": 37.5,
+          "fontWeight": "bold",
+          "marginVertical": 5,
+          "paddingTop": 26.68,
+          "textAlign": "center",
+        }
+      }
+    >
+      's bio
+    </Text>
+    <TouchableHighlight
+      accessibilityLabel="Edit bio"
+      onPress={[Function]}
+    >
+      <Text
+        style={
+          Object {
+            "color": "#777777",
+            "fontSize": 20,
+            "marginBottom": 10,
+            "textAlign": "center",
+            "textDecorationLine": "underline",
+          }
+        }
+      >
+        Edit bio
+      </Text>
+    </TouchableHighlight>
+    <Text
+      style={
+        Object {
+          "fontSize": 30,
+          "marginHorizontal": 37.5,
+          "marginVertical": 26.68,
+        }
+      }
+    >
+      
+    </Text>
+    <TouchableHighlight
+      accessibilityLabel="Edit goal"
+      onPress={[Function]}
+    >
+      <Text
+        style={
+          Object {
+            "color": "#777777",
+            "fontSize": 20,
+            "marginBottom": 10,
+            "textAlign": "center",
+            "textDecorationLine": "underline",
+          }
+        }
+      >
+        Edit goal
+      </Text>
+    </TouchableHighlight>
+    <Text
+      style={
+        Object {
+          "fontSize": 30,
+          "marginHorizontal": 37.5,
+          "marginVertical": 26.68,
+        }
+      }
+    >
+      
+    </Text>
+    <TouchableHighlight
+      accessibilityLabel="View consent form"
+      onPress={[Function]}
+    >
+      <Text
+        style={
+          Object {
+            "color": "#777777",
+            "fontSize": 20,
+            "marginBottom": 10,
+            "marginTop": 10,
+            "textAlign": "center",
+            "textDecorationLine": "underline",
+          }
+        }
+      >
+        View Consent Form
+      </Text>
+    </TouchableHighlight>
+    <View
+      style={
+        Object {
+          "alignSelf": "stretch",
+          "borderBottomColor": "#555555",
+          "borderBottomWidth": 2,
+          "borderRadius": 30,
+          "marginHorizontal": 20,
+          "marginVertical": 20,
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "fontSize": 37.5,
+          "fontWeight": "bold",
+          "marginVertical": 5,
+          "textAlign": "center",
+        }
+      }
+    >
+      's concepts
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#777777",
+          "fontSize": 30,
+          "textAlign": "center",
+        }
+      }
+    >
+       Loading concepts ... 
+    </Text>
+  </ScrollView>
+</View>
+`;

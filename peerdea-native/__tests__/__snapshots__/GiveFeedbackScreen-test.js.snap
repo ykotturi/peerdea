@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Give Feedback Screen renders the give feedback screen loading 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "bottom": 0,
+      "justifyContent": "center",
+      "left": 0,
+      "position": "absolute",
+      "right": 0,
+      "top": 0,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "fontSize": 37.5,
+        "paddingVertical": 5,
+      }
+    }
+  >
+    Loading concepts...
+  </Text>
+</View>
+`;

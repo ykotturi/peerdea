@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Group members Screen renders the group members screen 1`] = `
+<View
+  pointerEvents="auto"
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "flex": 1,
+    }
+  }
+>
+  <Unknown />
+  <ScrollView
+    persistentScrollbar={true}
+  >
+    <View />
+  </ScrollView>
+</View>
+`;

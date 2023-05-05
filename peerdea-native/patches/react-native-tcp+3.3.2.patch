@@ -1,0 +1,107 @@
+diff --git a/node_modules/react-native-tcp/.eslintignore b/node_modules/react-native-tcp/.eslintignore
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native-tcp/.eslintrc b/node_modules/react-native-tcp/.eslintrc
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native-tcp/.flowconfig b/node_modules/react-native-tcp/.flowconfig
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native-tcp/LICENSE b/node_modules/react-native-tcp/LICENSE
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native-tcp/README.md b/node_modules/react-native-tcp/README.md
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native-tcp/TcpServer.js b/node_modules/react-native-tcp/TcpServer.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native-tcp/TcpSocket.js b/node_modules/react-native-tcp/TcpSocket.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native-tcp/TcpSockets.js b/node_modules/react-native-tcp/TcpSockets.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native-tcp/TcpSockets.podspec b/node_modules/react-native-tcp/TcpSockets.podspec
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native-tcp/android/build.gradle b/node_modules/react-native-tcp/android/build.gradle
+old mode 100644
+new mode 100755
+index c582eb7..5785289
+--- a/node_modules/react-native-tcp/android/build.gradle
++++ b/node_modules/react-native-tcp/android/build.gradle
+@@ -44,6 +44,6 @@ repositories {
+ }
+ 
+ dependencies {
+-    compile 'com.facebook.react:react-native:+'
+-    compile 'com.koushikdutta.async:androidasync:2.1.6'
++    implementation 'com.facebook.react:react-native:+'
++    implementation 'com.koushikdutta.async:androidasync:2.1.6'
+ }
+diff --git a/node_modules/react-native-tcp/android/src/main/AndroidManifest.xml b/node_modules/react-native-tcp/android/src/main/AndroidManifest.xml
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native-tcp/android/src/main/java/com/peel/react/TcpSocketListener.java b/node_modules/react-native-tcp/android/src/main/java/com/peel/react/TcpSocketListener.java
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native-tcp/android/src/main/java/com/peel/react/TcpSocketManager.java b/node_modules/react-native-tcp/android/src/main/java/com/peel/react/TcpSocketManager.java
+old mode 100644
+new mode 100755
+index df2007f..8353cd1
+--- a/node_modules/react-native-tcp/android/src/main/java/com/peel/react/TcpSocketManager.java
++++ b/node_modules/react-native-tcp/android/src/main/java/com/peel/react/TcpSocketManager.java
+@@ -1,6 +1,6 @@
+ package com.peel.react;
+ 
+-import android.support.annotation.Nullable;
++import androidx.annotation.Nullable;
+ import android.util.SparseArray;
+ 
+ import com.koushikdutta.async.AsyncNetworkSocket;
+diff --git a/node_modules/react-native-tcp/android/src/main/java/com/peel/react/TcpSockets.java b/node_modules/react-native-tcp/android/src/main/java/com/peel/react/TcpSockets.java
+old mode 100644
+new mode 100755
+index 1bc07d2..8e6d5d5
+--- a/node_modules/react-native-tcp/android/src/main/java/com/peel/react/TcpSockets.java
++++ b/node_modules/react-native-tcp/android/src/main/java/com/peel/react/TcpSockets.java
+@@ -5,7 +5,7 @@
+ 
+ package com.peel.react;
+ 
+-import android.support.annotation.Nullable;
++import androidx.annotation.Nullable;
+ import android.util.Base64;
+ 
+ import com.facebook.common.logging.FLog;
+diff --git a/node_modules/react-native-tcp/android/src/main/java/com/peel/react/TcpSocketsModule.java b/node_modules/react-native-tcp/android/src/main/java/com/peel/react/TcpSocketsModule.java
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native-tcp/base64-str.js b/node_modules/react-native-tcp/base64-str.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native-tcp/interfaces/interface.js b/node_modules/react-native-tcp/interfaces/interface.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native-tcp/ios/CocoaAsyncSocket/GCDAsyncSocket.h b/node_modules/react-native-tcp/ios/CocoaAsyncSocket/GCDAsyncSocket.h
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native-tcp/ios/CocoaAsyncSocket/GCDAsyncSocket.m b/node_modules/react-native-tcp/ios/CocoaAsyncSocket/GCDAsyncSocket.m
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native-tcp/ios/TcpSocketClient.h b/node_modules/react-native-tcp/ios/TcpSocketClient.h
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native-tcp/ios/TcpSocketClient.m b/node_modules/react-native-tcp/ios/TcpSocketClient.m
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native-tcp/ios/TcpSockets.h b/node_modules/react-native-tcp/ios/TcpSockets.h
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native-tcp/ios/TcpSockets.m b/node_modules/react-native-tcp/ios/TcpSockets.m
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native-tcp/ios/TcpSockets.xcodeproj/project.pbxproj b/node_modules/react-native-tcp/ios/TcpSockets.xcodeproj/project.pbxproj
+old mode 100644
+new mode 100755

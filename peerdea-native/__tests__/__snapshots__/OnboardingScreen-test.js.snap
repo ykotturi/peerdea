@@ -1,0 +1,521 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Onboarding Screen renders the onboarding screen 1`] = `
+<View
+  collapsable={false}
+  onLayout={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <RCTScrollView
+    data={
+      Array [
+        Object {
+          "backgroundColor": "#fff",
+          "image": <Themed.Icon
+            color="#0076ff"
+            name="lightbulb-o"
+            size={333.5}
+            type="font-awesome"
+          />,
+          "subtitle": "Swipe to learn how Peerdea is intended to help your design process by facilitating feedback in its early stages.",
+          "title": "Welcome to Peerdea!",
+        },
+        Object {
+          "backgroundColor": "#fff",
+          "image": <PinchGestureHandler
+            onGestureEvent={[Function]}
+            onHandlerStateChange={[Function]}
+          >
+            <ForwardRef(AnimatedComponentWrapper)
+              resizeMode="contain"
+              source={1}
+              style={
+                Object {
+                  "height": 525,
+                  "transform": Array [
+                    Object {
+                      "scale": 1,
+                    },
+                  ],
+                  "width": 712.5,
+                }
+              }
+            />
+          </PinchGestureHandler>,
+          "subtitle": "First, create a group on Peerdea. To invite your peers to join your group, share the group credentials with them securely.",
+          "title": "As the name suggests, Peerdea leverages the power of peers!",
+        },
+        Object {
+          "backgroundColor": "#fff",
+          "image": <PinchGestureHandler
+            minPoints={2}
+            onGestureEvent={[Function]}
+            onHandlerStateChange={[Function]}
+          >
+            <ForwardRef(AnimatedComponentWrapper)
+              resizeMode="contain"
+              source={1}
+              style={
+                Object {
+                  "height": 525,
+                  "transform": Array [
+                    Object {
+                      "scale": 1,
+                    },
+                  ],
+                  "width": 712.5,
+                }
+              }
+            />
+          </PinchGestureHandler>,
+          "subtitle": "Once in a group, you are able to give feedback on design concepts (ideas, sketches, prototypes) you and your peers have shared. Giving feedback to others can help to foster relationships as well as improve your own creative practices.",
+          "title": "Give your peers feedback!",
+        },
+        Object {
+          "backgroundColor": "#fff",
+          "image": <PinchGestureHandler
+            onGestureEvent={[Function]}
+            onHandlerStateChange={[Function]}
+          >
+            <ForwardRef(AnimatedComponentWrapper)
+              resizeMode="contain"
+              source={1}
+              style={
+                Object {
+                  "height": 525,
+                  "transform": Array [
+                    Object {
+                      "scale": 1,
+                    },
+                  ],
+                  "width": 712.5,
+                }
+              }
+            />
+          </PinchGestureHandler>,
+          "subtitle": "Peerdea enables you to share your design concepts (ideas, sketches, prototypes), and pings your peers to let them know you are counting on them for feedback.",
+          "title": "Want feedback on your ideas?",
+        },
+        Object {
+          "backgroundColor": "#fff",
+          "image": <Themed.Icon
+            color="#0076ff"
+            name="book"
+            size={333.5}
+            type="font-awesome"
+          />,
+          "subtitle": "To help foster your reflections on asking for feedback on in-progress work, it may be helpful to describe your experiences using Peerdea in a notepad (we can provide you with one if interested!).",
+          "title": "Document your Peerdea experiences in a diary!",
+        },
+        Object {
+          "backgroundColor": "#fff",
+          "image": <Themed.Icon
+            color="#0076ff"
+            name="heart"
+            size={333.5}
+            type="font-awesome"
+          />,
+          "subtitle": "If you run into any difficulties, please let us know. We value both positive and critical feedback on Peerdea.",
+          "title": "Thank you for being a Peerdea Beta tester!",
+        },
+      ]
+    }
+    extraData={null}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={true}
+    initialNumToRender={1}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    onViewableItemsChanged={[Function]}
+    pagingEnabled={true}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    showsHorizontalScrollIndicator={false}
+    stickyHeaderIndices={Array []}
+    viewabilityConfig={
+      Object {
+        "itemVisiblePercentThreshold": 100,
+      }
+    }
+    viewabilityConfigCallbackPairs={
+      Array [
+        Object {
+          "onViewableItemsChanged": [Function],
+          "viewabilityConfig": Object {
+            "itemVisiblePercentThreshold": 100,
+          },
+        },
+      ]
+    }
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "flexDirection": "column",
+                "justifyContent": "center",
+                "paddingTop": 0,
+              },
+              Object {
+                "flex": 0.5,
+                "justifyContent": "flex-start",
+                "paddingBottom": "10%",
+                "paddingTop": "15%",
+              },
+              Object {
+                "height": 1334,
+                "width": 750,
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "flex": 0,
+                  "paddingBottom": 60,
+                  "width": "100%",
+                },
+                null,
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "overflow": "hidden",
+                }
+              }
+            >
+              <View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "transparent",
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Text />
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "paddingHorizontal": 10,
+              }
+            }
+          >
+            <Text
+              allowFontScaling={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#fff",
+                    "fontSize": 26,
+                    "paddingBottom": 15,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#000",
+                  },
+                  Object {
+                    "color": "black",
+                    "fontSize": 10,
+                    "paddingLeft": "3%",
+                    "paddingRight": "3%",
+                  },
+                ]
+              }
+            >
+              Welcome to Peerdea!
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "paddingHorizontal": 10,
+              }
+            }
+          >
+            <Text
+              allowFontScaling={true}
+              style={
+                Array [
+                  Object {
+                    "color": "rgba(255, 255, 255, 0.7)",
+                    "fontSize": 16,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "rgba(0, 0, 0, 0.7)",
+                  },
+                  Object {
+                    "paddingLeft": "3%",
+                    "paddingRight": "3%",
+                  },
+                ]
+              }
+            >
+              Swipe to learn how Peerdea is intended to help your design process by facilitating feedback in its early stages.
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "width": 0,
+          }
+        }
+      />
+    </View>
+  </RCTScrollView>
+  <RCTSafeAreaView
+    style={
+      Object {
+        "backgroundColor": "rgba(0, 0, 0, 0.1)",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "flexDirection": "row",
+          "height": 60,
+          "justifyContent": "space-between",
+          "paddingHorizontal": 0,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "flexShrink": 1,
+            "width": 200,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 0,
+              "marginLeft": 10,
+              "paddingHorizontal": 10,
+            }
+          }
+        >
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            hitSlop={
+              Object {
+                "bottom": 15,
+                "left": 15,
+                "right": 15,
+                "top": 15,
+              }
+            }
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "flex": 0,
+                "opacity": 1,
+              }
+            }
+          >
+            <Text
+              allowFontScaling={true}
+              style={
+                Object {
+                  "color": "rgba(0, 0, 0, 0.8)",
+                  "fontSize": 16,
+                }
+              }
+            >
+              Skip
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 0,
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "rgba(0, 0, 0, 0.8)",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 3,
+              "width": 6,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "backgroundColor": "rgba(0, 0, 0, 0.3)",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 3,
+              "width": 6,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "backgroundColor": "rgba(0, 0, 0, 0.3)",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 3,
+              "width": 6,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "backgroundColor": "rgba(0, 0, 0, 0.3)",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 3,
+              "width": 6,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "backgroundColor": "rgba(0, 0, 0, 0.3)",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 3,
+              "width": 6,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "backgroundColor": "rgba(0, 0, 0, 0.3)",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 3,
+              "width": 6,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "flex-end",
+            "flexShrink": 1,
+            "width": 200,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 0,
+              "marginRight": 10,
+              "paddingHorizontal": 10,
+            }
+          }
+        >
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            hitSlop={
+              Object {
+                "bottom": 15,
+                "left": 15,
+                "right": 15,
+                "top": 15,
+              }
+            }
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "flex": 0,
+                "opacity": 1,
+              }
+            }
+          >
+            <Text
+              allowFontScaling={true}
+              style={
+                Object {
+                  "color": "rgba(0, 0, 0, 0.8)",
+                  "fontSize": 16,
+                }
+              }
+            >
+              Next
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTSafeAreaView>
+</View>
+`;

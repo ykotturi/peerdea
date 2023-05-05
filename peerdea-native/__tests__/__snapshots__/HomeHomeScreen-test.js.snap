@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home home Screen renders the home home screen without any groups 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#fff",
+      "bottom": 0,
+      "justifyContent": "center",
+      "left": 0,
+      "position": "absolute",
+      "right": 0,
+      "top": 0,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "rgba(96,100,109, 1)",
+        "fontSize": 25,
+        "lineHeight": 40,
+        "textAlign": "center",
+      }
+    }
+  >
+    You're not a member of any Peerdea groups yet!
+  </Text>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+  >
+    <Text
+      style={
+        Object {
+          "color": "rgba(96,100,109, 1)",
+          "fontSize": 17,
+          "lineHeight": 30,
+          "textAlign": "center",
+          "textDecorationLine": "underline",
+        }
+      }
+    >
+      Join or create a group here!
+    </Text>
+  </View>
+</View>
+`;
