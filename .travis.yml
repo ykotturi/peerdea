@@ -1,0 +1,27 @@
+language: node_js
+node_js:
+- 16
+dist: xenial
+sudo: required
+services:
+- docker
+- mongodb
+env:
+  global:
+  - DOCKER_TLS_VERIFY="1"
+script:
+- npm run lint
+- cd backend
+- travis_wait npm install
+- npm test
+- cd ..
+- docker-compose build
+- cd peerdea-native
+- travis_wait npm install
+- npm test
+deploy:
+  skip_cleanup: true
+  provider: script
+  script: docker-compose up -d --remove-orphans
+  on:
+    branch: master

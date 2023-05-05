@@ -1,0 +1,41 @@
+{
+  "name": "Peerdea",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint *.js backend/*.js backend/test/*.js backend/src/*.js",
+    "start": "concurrently \"cd backend && node server.js\" \"cd peerdea-native && npm start\"",
+    "test": "cd backend && mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ykotturi/peerdea.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ykotturi/peerdea/issues"
+  },
+  "homepage": "https://github.com/ykotturi/peerdea#readme",
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.15.5",
+    "aws-sdk": "^2.911.0",
+    "concurrently": "^4.1.2",
+    "expo-server-sdk": "^3.6.0",
+    "jest": "^24.9.0",
+    "mocha": "^6.2.3",
+    "mongoose": "^5.12.10",
+    "react": "^0.14.10",
+    "react-native-device-info": "^2.3.2",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-image-placeholder": "^1.0.14",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^4.0.0",
+    "eslint-plugin-react": "^7.23.2"
+  }
+}

@@ -1,0 +1,9 @@
+version: '3'
+services:
+
+  peerdea_app:
+    container_name: peerdea_backend
+    build: ./backend
+    ports:
+      - "80:80"
+    restart: always
