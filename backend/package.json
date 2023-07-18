@@ -22,7 +22,7 @@
     "graphql": "^14.7.0",
     "graphql-playground-middleware-express": "^1.7.12",
     "mocha": "^6.1.4",
-    "mongoose": "^5.13.14",
+    "mongoose": "^5.13.20",
     "morgan": "^1.9.1"
   }
 }
