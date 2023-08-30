@@ -70,7 +70,7 @@
     "is-stream": "^2.0.0",
     "jest": "^26.6.3",
     "levenary": "^1.1.1",
-    "mongoose": "^6.2.6",
+    "mongoose": "^6.12.0",
     "net": "^1.0.2",
     "node-libs-react-native": "^1.2.1",
     "patch-package": "^6.5.1",
